@@ -1,0 +1,12 @@
+
+   color: #83c2f9;
+
+.container {
+  
+    width: 80%; /* Regola la larghezza del contenitore */
+    margin: 0 auto; /* Centra il contenitore orizzontalmente */
+    border: 1px solid #ccc; /* Aggiunge un bordo per separazione visiva */
+    padding: 20px; /* Aggiunge spazio interno al contenitore */
+  }
+ 
+   

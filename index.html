@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Fill the form below</h1>
+    <h6>Complete the below form to get instance access</h6>
+<form action="/submit" method="POST">
+
+    <label for="companyName">Company Name:</label><br>
+        <input type="text" id="companyName" name="companyName" required><br>
+    
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name"   required placeholder="Nome"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required   placeholder="email">
+
+        <label for="phone">Phone:</label><br>
+        <textarea id="phone" name="phone" rows="4" cols="50" required  placeholder="phone"></textarea><br>
+
+        <select id="mobileDelivery" name="cars" required  >
+            <option value="mobileDelivery" selected disabled>mobileDelivery</option>
+            <option value="posteItaliane">posteItaliane</option>
+            <option value="bartolini">bartolini</option>
+            <option value="inPost">inPost</option>
+            <option value="puntoRitiro">puntoRitiro</option>
+        </select><br><br>
+
+    <input type="submit" value="Invia richiesta">
+</form>
+
+<div class="container">
+   
+    <img src="Screenshot 2024-03-20 104230.png" alt="Descrizione dell'immagine">
+</div>
+</body>
+</html>
