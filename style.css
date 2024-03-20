@@ -62,7 +62,7 @@
 
 }
 
-.flex-input-col-right {}
+/* .flex-input-col-right {} */
 
 .flex-text-container {
     display: flex;
@@ -72,6 +72,11 @@
 
 .title {
     color: #174776;
+    font-weight: 900;
+}
+
+.error {
+    color: red;
     font-weight: 900;
 }
 
